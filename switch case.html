@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switchcase</title>
+    <script>
+        let a=parseFloat(prompt("enter first number"));
+        let b=parseFloat(prompt("enter 2nd number"));
+        let c=prompt("enter your choice=>+,-,*,/");
+        let result;
+        switch (c)
+        {
+            case '+':
+                   result= a+b;
+                document.write(result);
+                break;
+            
+            case '-':
+            result= a-b;
+            document.write(result);
+                break;
+            
+            case '*':
+            result=a*b;
+            document.write(result);
+                break;
+
+            case '/':
+            result= a/b;
+            document.write(result);
+                break;
+            
+            default:
+                    document.write("make an valid choice");
+            } 
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
