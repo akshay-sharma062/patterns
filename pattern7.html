@@ -17,12 +17,15 @@
 </head>
 <body>
     <script>
-        for (let i = 0; i > 5; i++) {
-          document.write(" ")
-          for (let j = 0; j < i; j++) {
-           document.write(j)
-            
+        for (let i = 0; i < 5; i++) {
+        
+          for (let j = i; j <5-i; j++) {
+           document.write(" ")
           }
+            for (let k = 0; k < i; k++) {
+                document.write("*")   
+            }
+          
           document.write("<br>")
             
         }
